@@ -6,6 +6,28 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.static
+{
+	position:absolute;
+	max-width: 88.43%;
+	height: auto;
+
+}
+.active
+{	
+	max-width: 100%;
+	height: auto;
+}
+.static:hover
+{
+	opacity: 0;
+}
+.bottomright {
+	position: absolute;
+	bottom: -14px;
+	right: 56px;
+	font-size: 12px;
+  }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -71,6 +93,9 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+
+
 
 /* Basic */
 
